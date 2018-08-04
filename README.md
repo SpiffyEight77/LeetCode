@@ -1,5 +1,5 @@
 # LeetCode Problems' Solutions
-***
+
 ### LeetCode Algorithm
 | ID | Title | 中文名称 | Solutions | Difficulty |
 | :------: | :------: | :------: | :------: | :------: |
