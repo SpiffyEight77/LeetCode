@@ -8,4 +8,7 @@
 | 217 | Contains Duplicate | 存在重复元素 | C++ Go | Easy |
 | 189 | Rotate Array | 旋转数组 | C++ Go | Easy |
 | 344 | Reverse String | 反转字符串 | C++ Go | Easy |
-
+| 1 | Two Sum | 两数之和 | C++ Go | Easy |
+| 66 | Plus One | 加一 | C++ Go | Easy |
+| 283 | Move Zeroes | 移动零 | C++ Go | Easy |
+| 136 | Single Number | 只出现一次的数字 | C++ Go | Easy |
