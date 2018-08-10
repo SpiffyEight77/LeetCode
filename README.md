@@ -13,6 +13,6 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | C++ Go | Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | C++ Go | Easy |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | C++ Go | Easy |
-| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | C++ Go | Easy |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | C++ Go | Medium |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/) | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | C++ Go | Easy |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) | C++ Go | Easy |
