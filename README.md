@@ -3,7 +3,8 @@
 ### LeetCode Problems
 | ID | Title | 中文名称 | Solutions | Difficulty |
 | :------: | :------: | :------: | :------: | :------: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | C++ Go | Easy |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/1.%20Two%20Sum/Two%20Sum.go) | Easy |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/13.%20Roman%20to%20Integer/Roman%20to%20Integer.go) | Easy |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | [C++](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array/Remove%20Duplicates%20from%20Sorted%20Array.cpp) [Go](https://github.com/SpiffyEight77/LeetCode/tree/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array) | Easy |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [加一](https://leetcode-cn.com/problems/plus-one/description/) | C++ Go | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | C++ Go | Easy |
