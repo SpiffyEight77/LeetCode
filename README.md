@@ -1,6 +1,6 @@
 # LeetCode Problems' Solutions
 
-### LeetCode Algorithm
+### LeetCode Problems
 | ID | Title | 中文名称 | Solutions | Difficulty |
 | :------: | :------: | :------: | :------: | :------: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | C++ Go | Easy |
