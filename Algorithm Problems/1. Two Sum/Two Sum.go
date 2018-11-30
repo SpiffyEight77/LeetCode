@@ -21,17 +21,29 @@ func twoSum(nums []int, target int) []int {
 	}
 }
 
-//v2 map O(n)
+//v2 hash table O(n)
 func twoSum(nums []int, target int) []int {
-	slice := make([]int, 2, 2)
 	m := make(map[int]int, len(nums))
 	for i := 0; i < len(nums); i++ {
 		if v, ok := m[nums[i]]; ok {
-			slice = []int{v, i}
-			break
-		} else {
-			m[target-nums[i]] = i
+			slice := []int{v, i}
+			return slice
+		}
+		m[target-nums[i]] = i
+
+	}
+	return nil
+}
+
+//v3 暴力
+func twoSum(nums []int, target int) []int {
+	for i := 0; i < len(nums); i++ {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i]+nums[j] == target {
+				res := []int{i, j}
+				return res
+			}
 		}
 	}
-	return slice
+	return nil
 }
