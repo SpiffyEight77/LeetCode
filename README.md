@@ -1,28 +1,29 @@
 # LeetCode Problems' Solutions
 
 ### LeetCode Problems
-| ID | Title | 中文名称 | Solutions | Difficulty |
-| :------: | :------: | :------: | :------: | :------: |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [两数之和](https://leetcode-cn.com/problems/two-sum/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/1.%20Two%20Sum/Two%20Sum.go) | Easy |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/13.%20Roman%20to%20Integer/Roman%20to%20Integer.go) | Easy |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | [C++](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array/Remove%20Duplicates%20from%20Sorted%20Array.cpp) [Go](https://github.com/SpiffyEight77/LeetCode/tree/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array) | Easy |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | [C++]() [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/48.%20Rotate%20Image/Rotate%20Image.go) | Medium |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [最后一个单词长度](https://leetcode-cn.com/problems/length-of-last-word) | [C++]() [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/58.%20Length%20of%20Last%20Word/Length%20of%20Last%20Word.go) | Easy |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [加一](https://leetcode-cn.com/problems/plus-one/description/) | C++ Go | Easy |
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | C++ Go | Easy |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | C++ Go | Easy |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/125.%20Valid%20Palindrome/Valid%20Palindrome.go) | Easy |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | C++ Go | Easy |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | C++ Go | Easy |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | C++ Go | Easy |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | C++ Go | Easy |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | C++ Go | Easy |
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/496.%20Next%20Greater%20Element%20I/Next%20Greater%20Element%20I.go) | Medium |
-| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | C++ Go | Medium |
-| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/) | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/description/) | C++ Go | Easy |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | [每日温度](https://leetcode-cn.com/problems/daily-temperatures) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/739.%20Daily%20Temperatures/Daily%20Temperatures.go) | Medium |
-| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/) | C++ Go | Easy |
-| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [翻转图像](https://leetcode-cn.com/problems/flipping-an-image) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/832.%20Flipping%20an%20Image/Flipping%20an%20Image.go) | Easy |
-| 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | [按奇偶排序数组](https://leetcode-cn.com/problems/sort-array-by-parity) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/905.%20Sort%20Array%20By%20Parity/Sort%20Array%20By%20Parity.go) | Easy |
-| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | [使括号有效的最少添加](https://leetcode-cn.com/problems/minimum-add-to-make-parentheses-valid) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid/Minimum%20Add%20to%20Make%20Parentheses%20Valid.go) | Medium |
-| 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) | []() | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/946.%20Validate%20Stack%20Sequences/Validate%20Stack%20Sequences.go) | Medium |
+| ID | Title | Solutions | Difficulty |
+| :------: | :------: | :------: | :------: |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/1.%20Two%20Sum/Two%20Sum.go) | Easy |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/13.%20Roman%20to%20Integer/Roman%20to%20Integer.go) | Easy |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array/Remove%20Duplicates%20from%20Sorted%20Array.cpp) [Go](https://github.com/SpiffyEight77/LeetCode/tree/master/Algorithm/Remove%20Duplicates%20from%20Sorted%20Array) | Easy |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++]() [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/48.%20Rotate%20Image/Rotate%20Image.go) | Medium |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++]() [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/58.%20Length%20of%20Last%20Word/Length%20of%20Last%20Word.go) | Easy |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | C++ Go | Easy |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | C++ Go | Easy |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | C++ Go | Easy |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/125.%20Valid%20Palindrome/Valid%20Palindrome.go) | Easy |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | C++ Go | Easy |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | C++ Go | Easy |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | C++ Go | Easy |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | C++ Go | Easy |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | C++ Go | Easy |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/347.%20Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.go) | Medium |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/496.%20Next%20Greater%20Element%20I/Next%20Greater%20Element%20I.go) | Medium |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | C++ Go | Medium |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/) | C++ Go | Easy |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/739.%20Daily%20Temperatures/Daily%20Temperatures.go) | Medium |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | C++ Go | Easy |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/832.%20Flipping%20an%20Image/Flipping%20an%20Image.go) | Easy |
+| 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/905.%20Sort%20Array%20By%20Parity/Sort%20Array%20By%20Parity.go) | Easy |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid/Minimum%20Add%20to%20Make%20Parentheses%20Valid.go) | Medium |
+| 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) | C++ [Go](https://github.com/SpiffyEight77/LeetCode/blob/master/Algorithm%20Problems/946.%20Validate%20Stack%20Sequences/Validate%20Stack%20Sequences.go) | Medium |
