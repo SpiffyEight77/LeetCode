@@ -30,7 +30,6 @@ func twoSum(nums []int, target int) []int {
 			return slice
 		}
 		m[target-nums[i]] = i
-
 	}
 	return nil
 }
