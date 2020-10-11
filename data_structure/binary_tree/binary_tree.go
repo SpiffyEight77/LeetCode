@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Node struct {
 	Val         int
@@ -100,6 +102,96 @@ func postorderTraversal(root *Node) []int {
 	return res
 }
 
+func levelOrder(root *Node) [][]int {
+	if root == nil {
+		return nil
+	}
+	res := make([][]int, 0)
+	queue := make([]*Node, 0)
+	queue = append(queue, root)
+	for len(queue) > 0 {
+		list := make([]int, 0)
+		l := len(queue)
+		for i := 0; i < l; i++ {
+			level := queue[0]
+			queue = queue[1:]
+			list = append(list, level.Val)
+			if level.Left != nil {
+				queue = append(queue, level.Left)
+			}
+			if level.Right != nil {
+				queue = append(queue, level.Right)
+			}
+		}
+		res = append(res, list)
+	}
+	return res
+}
+
+func preorderDivide(root *Node) []int {
+	return preorderDivideTraversal(root)
+}
+
+func preorderDivideTraversal(root *Node) []int {
+	if root == nil {
+		return nil
+	}
+	res := make([]int, 0)
+	left := preorderDivideTraversal(root.Left)
+	right := preorderDivideTraversal(root.Right)
+
+	res = append(res, root.Val)
+	res = append(res, left...)
+	res = append(res, right...)
+	return res
+}
+
+func preorderDFSTraversal(root *Node) []int {
+	res := make([]int, 0)
+	dfs(root, &res)
+	return res
+}
+
+func dfs(root *Node, res *[]int) {
+	if root == nil {
+		return
+	}
+
+	*res = append(*res, root.Val)
+	dfs(root.Left, res)
+	dfs(root.Right, res)
+}
+
+func levelOrderDFSTraversal(root *Node) [][]int {
+	return levelOrderDFS(root, 0, [][]int{})
+}
+
+func levelOrderDFS(root *Node, level int, res [][]int) [][]int {
+	if root == nil {
+		return res
+	}
+	if len(res) == level {
+		res = append(res, []int{})
+	}
+	res[level] = append(res[level], root.Val)
+	res = levelOrderDFS(root.Left, level+1, res)
+	res = levelOrderDFS(root.Right, level+1, res)
+	return res
+}
+
+func maxDepth(root *Node) int {
+	if root == nil {
+		return 0
+	}
+	leftdepth := maxDepth(root.Left)
+	rightdepth := maxDepth(root.Right)
+	if leftdepth > rightdepth {
+		return leftdepth + 1
+	} else {
+		return rightdepth + 1
+	}
+}
+
 func main() {
 
 	root := &Node{Val: 3}
@@ -117,4 +209,10 @@ func main() {
 	fmt.Println(res)
 
 	postorderTraversal(root)
+
+	fmt.Println(levelOrder(root))
+
+	fmt.Println(levelOrderDFSTraversal(root))
+
+	fmt.Println("max depth:", maxDepth(root))
 }
