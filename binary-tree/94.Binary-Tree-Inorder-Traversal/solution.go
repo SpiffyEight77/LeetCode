@@ -42,3 +42,23 @@ func inorderTraversalV2(root *TreeNode) []int {
 
 	return res
 }
+
+func inorderTraversalV3(root *TreeNode) []int {
+	return divideAndConquer(root)
+}
+
+func divideAndConquer(root *TreeNode) []int {
+	if root == nil {
+		return nil
+	}
+
+	res := make([]int, 0)
+
+	left := divideAndConquer(root.Left)
+	right := divideAndConquer(root.Right)
+
+	res = append(res, left...)
+	res = append(res, root.Val)
+	res = append(res, right...)
+	return res
+}
