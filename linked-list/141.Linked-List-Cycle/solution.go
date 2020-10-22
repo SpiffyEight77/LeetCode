@@ -19,3 +19,19 @@ func hasCycle(head *ListNode) bool {
 	}
 	return false
 }
+
+func hasCycleV2(head *ListNode) bool {
+	if head == nil {
+		return false
+	}
+
+	m := map[*ListNode]int{}
+	for head != nil && head.Next != nil {
+		if m[head] > 0 {
+			return true
+		}
+		m[head]++
+		head = head.Next
+	}
+	return false
+}
