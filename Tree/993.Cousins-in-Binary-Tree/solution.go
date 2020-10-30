@@ -10,12 +10,13 @@ func isCousins(root *TreeNode, x int, y int) bool {
 	if root == nil {
 		return false
 	}
-
 	queue := make([]*TreeNode, 0)
 	queue = append(queue, root)
+
+	var nodeX, nodeY int
+
 	for len(queue) > 0 {
 		l := len(queue)
-		var nodeX, nodeY int
 		var flagX, flagY bool
 		for i := 0; i < l; i++ {
 			node := queue[0]
@@ -31,20 +32,20 @@ func isCousins(root *TreeNode, x int, y int) bool {
 					flagY = true
 				}
 			}
+
 			if node.Right != nil {
 				queue = append(queue, node.Right)
-				if node.Right.Val == y {
-					nodeY = node.Val
-					flagY = true
-				}
 				if node.Right.Val == x {
 					nodeX = node.Val
 					flagX = true
 				}
+				if node.Right.Val == y {
+					nodeY = node.Val
+					flagY = true
+				}
 			}
-
 		}
-		if flagX == true && flagY == true {
+		if flagX && flagY {
 			return nodeX != nodeY
 		}
 	}
