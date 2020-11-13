@@ -1,5 +1,7 @@
 package leetcode
 
+import "math"
+
 func maxProfit(prices []int) int {
 	if len(prices) <= 1 {
 		return 0
@@ -23,4 +25,21 @@ func max(x, y int) int {
 		return x
 	}
 	return y
+}
+
+func maxProfitV2(prices []int) int {
+	if len(prices) < 2 {
+		return 0
+	}
+	minPrice := math.MaxInt64
+	maxProfit := 0
+
+	for _, price := range prices {
+		if price < minPrice {
+			minPrice = price
+		} else if price-minPrice > maxProfit {
+			maxProfit = price - minPrice
+		}
+	}
+	return maxProfit
 }
