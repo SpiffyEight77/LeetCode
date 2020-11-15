@@ -31,3 +31,20 @@ func rightSideView(root *TreeNode) []int {
 	}
 	return res
 }
+
+func rightSideViewV2(root *TreeNode) []int {
+	res := make([]int, 0)
+	dfs(root, 0, &res)
+	return res
+}
+
+func dfs(root *TreeNode, level int, res *[]int) {
+	if root == nil {
+		return
+	}
+	if len(*res) == level {
+		*res = append(*res, root.Val)
+	}
+	dfs(root.Right, level+1, res)
+	dfs(root.Left, level+1, res)
+}
