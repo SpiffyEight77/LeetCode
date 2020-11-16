@@ -30,3 +30,29 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 
 	return res
 }
+
+func relativeSortArrayV2(arr1 []int, arr2 []int) []int {
+	if len(arr1) == 0 || len(arr2) == 0 {
+		return arr1
+	}
+
+	freq := [1001]int{}
+	res := make([]int, 0)
+
+	for _, v := range arr1 {
+		freq[v]++
+	}
+
+	for _, v := range arr2 {
+		for ; freq[v] != 0; freq[v]-- {
+			res = append(res, v)
+		}
+	}
+
+	for k, v := range freq {
+		for ; v != 0; v-- {
+			res = append(res, k)
+		}
+	}
+	return res
+}
